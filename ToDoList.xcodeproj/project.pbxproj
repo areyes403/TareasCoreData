@@ -14,6 +14,10 @@
 		F96D591E284C1AE4005586CD /* ToDoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F96D591C284C1AE4005586CD /* ToDoList.xcdatamodeld */; };
 		F96D5920284C1AEB005586CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F96D591F284C1AEB005586CD /* Assets.xcassets */; };
 		F96D5923284C1AEB005586CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F96D5921284C1AEB005586CD /* LaunchScreen.storyboard */; };
+		F96D5930284C25E3005586CD /* VerTareaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96D592F284C25E3005586CD /* VerTareaViewController.swift */; };
+		F96D5932284C28B1005586CD /* CrearTareaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96D5931284C28B1005586CD /* CrearTareaViewController.swift */; };
+		F96D593F284CE32D005586CD /* Tarea+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96D593D284CE32D005586CD /* Tarea+CoreDataClass.swift */; };
+		F96D5940284CE32D005586CD /* Tarea+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96D593E284CE32D005586CD /* Tarea+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		F96D591F284C1AEB005586CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F96D5922284C1AEB005586CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F96D5924284C1AEB005586CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F96D592F284C25E3005586CD /* VerTareaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerTareaViewController.swift; sourceTree = "<group>"; };
+		F96D5931284C28B1005586CD /* CrearTareaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrearTareaViewController.swift; sourceTree = "<group>"; };
+		F96D593D284CE32D005586CD /* Tarea+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tarea+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F96D593E284CE32D005586CD /* Tarea+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tarea+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +50,8 @@
 		F96D5907284C1AE4005586CD = {
 			isa = PBXGroup;
 			children = (
+				F96D593D284CE32D005586CD /* Tarea+CoreDataClass.swift */,
+				F96D593E284CE32D005586CD /* Tarea+CoreDataProperties.swift */,
 				F96D5912284C1AE4005586CD /* ToDoList */,
 				F96D5911284C1AE4005586CD /* Products */,
 			);
@@ -66,6 +76,8 @@
 				F96D5921284C1AEB005586CD /* LaunchScreen.storyboard */,
 				F96D5924284C1AEB005586CD /* Info.plist */,
 				F96D591C284C1AE4005586CD /* ToDoList.xcdatamodeld */,
+				F96D592F284C25E3005586CD /* VerTareaViewController.swift */,
+				F96D5931284C28B1005586CD /* CrearTareaViewController.swift */,
 			);
 			path = ToDoList;
 			sourceTree = "<group>";
@@ -142,9 +154,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F96D5918284C1AE4005586CD /* ViewController.swift in Sources */,
+				F96D5940284CE32D005586CD /* Tarea+CoreDataProperties.swift in Sources */,
 				F96D5914284C1AE4005586CD /* AppDelegate.swift in Sources */,
+				F96D5932284C28B1005586CD /* CrearTareaViewController.swift in Sources */,
 				F96D5916284C1AE4005586CD /* SceneDelegate.swift in Sources */,
 				F96D591E284C1AE4005586CD /* ToDoList.xcdatamodeld in Sources */,
+				F96D5930284C25E3005586CD /* VerTareaViewController.swift in Sources */,
+				F96D593F284CE32D005586CD /* Tarea+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
